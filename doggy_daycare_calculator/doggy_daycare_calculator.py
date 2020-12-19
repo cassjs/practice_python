@@ -6,13 +6,11 @@
 # the number of dogs and hours entered by a user. The hours correspond to
 # the Hours Rate Type: hourly, half day, and full day rates.
 
-# // HOURS RATE TYPE:
-# Hourly Rate (Max 2 hours)
-# $7.00/hr, each dog
-# Half Day Rate (Over 2 hrs - up to 5 hours max)
-# $20.00 first dog, additional dogs $15 each
-# Full Day Rate (Over 5 Hours - Up to 11 Hours Max)
-# $30 first dog, additional dogs $25 each
+# | Length                                       | Rate           | Additional Dog |  
+# | -------------------------------------------- | ---------------| ---------------|
+# | Hourly (Max 2 hours)                         | $ 7.00/Hr      | N/A            |
+# | Half Day (Over 2 hrs - up to 5 hours max)    | $ 20.00        | $ 15.00        |
+# | Full Day (Over 5 hours - up to 11 hours max) | $ 30.00        | $ 25.00        |
 
 # Input:        Enter Number of Dogs(numDogs) and Enter Number of Hours (numHours)
 # Output:       Calculated Rate in USD $0.00

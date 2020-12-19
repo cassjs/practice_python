@@ -15,7 +15,10 @@ The Doggy Daycare Calculator calculates the number of dogs and hours entered by 
 - numDogs = int(input('Enter Number of Dogs: ')) 
 - numHours = float(input('Enter Number of Hours: '))
 
-**Output:**     Calculated Rate in USD $0.00
+**Output:**     
+Displays the total calculated rate based on the number of dogs and number of hours entered by user.\
+Calculated Rate in USD $0.00
+
 
 ## Pseudocode:
 ![](images/screenshot_program-pseudocode.png)
@@ -26,3 +29,10 @@ Enter Number of Hours:
 
 ## Program Output Example:
 ![](images/screenshot_program-output.png)
+
+## Test Plan Overview:
+System tests using black-box testing of all functions of the program. Valid and invalid inputs are tested.
+
+### Test Cases:
+![](images/screenshot_program-test-cases-pg1.png)
+![](images/screenshot_program-test-cases-pg2.png)

@@ -24,5 +24,5 @@ Weight in Kilograms(kg):
   - Set convertKilos = currentWeightlbs * kilosPerlb
   - Display "Weight in Kilograms (kg): 0.00"
 
-## Program Output:
+## Program Output Example:
 ![](images/screenshot_program-output.png)
