@@ -29,6 +29,12 @@ End cupsToOunces(cups)
 
 Call Main
 
+## Sample Program:
+This program converts measurements in cups to fluid ounces.\
+For your reference the formula is: 1 cup = 8 fluid ounces.\
+Enter the number of cups: ____\
+That converts to ____ fluid ounces.
+
 ## Program Output Example:
 This program converts measurements in cups to fluid ounces.\
 For your reference the formula is: 1 cup = 8 fluid ounces.\
