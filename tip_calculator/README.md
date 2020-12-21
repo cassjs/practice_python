@@ -9,7 +9,17 @@ This program prompts user for their food bill without tip, asks the user to choo
 **Output:** Food Total w/ Tip
 
 ## Pseudocode:
-![](images/screenshot_program-pseudocode.png)
+- Declare foodBill
+- Declare tipPercentage
+- Display "How much is your food bill (not including a tip)?"
+- Input Float foodBill
+- Display "How much would you like to add as a tip? Choose one of the following options: a. 20%  b. 15% c. 10%: Enter a lowercase character only: a, b, or c: "
+- Input tipPercentage character a, b, or c
+- Set, if statements for tip options a, b, c
+    - if(tipPercentage == 'a'): print("Your bill total is: ", "{:.2f}".format(foodBill * a + foodBill))
+    - if(tipPercentage == 'b'): print("Your bill total is: ", "{:.2f}".format(foodBill * b + foodBill))
+    - if(tipPercentage == 'c'): print("Your bill total is: ", "{:.2f}".format(foodBill * c + foodBill))
+- Display "Your bill total is: ", "{:.2f}".format(foodBill * tipPercentage + foodBill)
 
 ## Sample Program:
 How much is your food bill (not including a tip)? ___\
