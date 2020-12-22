@@ -3,7 +3,8 @@
 **Date:**       December 5, 2020
 
 ## Description: 
-The Doggy Daycare Calculator calculates the number of dogs and hours entered by a user. The hours correspond to the Hours Rate Type: hourly, half day, and full day rates.
+The Doggy Daycare Calculator calculates the number of dogs and hours entered by a user. The hours correspond to the Hours Rate Type: hourly, half day, and full day rates.\
+(See JavaScript Version: https://github.com/cassjsdev/javascript_projects/edit/master/doggy_daycare_calculator/README.md)
 
 | Length                                       | Rate           | Additional Dog |  
 | -------------------------------------------- | ---------------| ---------------|
