@@ -24,15 +24,15 @@
 # Input Real costPerHr 'What is the cost of electricity per kilowatt-hour? '
 
 # Set totalBeforeTax = amountUsed * costPerHr
-# Display 'Total bill w/out sales tax: ' $0.00
+# Display 'Total bill w/out sales tax: $', totalBeforeTax
 
 # Declare taxAmount = .08
 # Display 'Sales Tax Applied = 8%'
 # Set totalSalesTax = totalBeforeTax * taxAmount
-# Display 'Total sales tax: ' $0.00 
+# Display 'Total sales tax: $', totalSalesTax  
 
 # Set totalAfterTax = totalBeforeTax + totalSalesTax
-# Display 'Total bill w/ sales tax: ' $0.00
+# Display 'Total bill w/ sales tax: $', totalAfterTax
 
 amountUsed = float(input('Enter the amount of electricity used\nin kilowatt-hours (kWh) used in one month:\n'))
 
